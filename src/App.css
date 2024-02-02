@@ -1,38 +1,35 @@
-.App {
+.card {
+  width: 300px;
+  padding: 15px;
+  margin: 50px;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+
+.profile-pic {
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-pic img {
+  width: 60%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.details h2 {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skills-container {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill {
+  margin: 0 10px 10px 0;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8rem;
 }
